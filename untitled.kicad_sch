@@ -1,0 +1,4774 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "050f5cc3-0f01-4c16-bb28-6ae2440c8ac9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Sensor_Magnetic:DRV5055A4xDBZxQ1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV5055A4xDBZxQ1"
+				(at 2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DRV5055A4xDBZxQ1_1_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 163.83 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05a1e365-922c-4c87-82ca-6298b1c62e5d")
+	)
+	(junction
+		(at 107.95 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0860c1ee-e775-4671-8ea1-877d926f0083")
+	)
+	(junction
+		(at 130.81 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "125923f9-3b4b-4588-a8fc-a7b870134423")
+	)
+	(junction
+		(at 142.24 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1473408a-7b65-4942-a3bf-bcfd719813d0")
+	)
+	(junction
+		(at 107.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "164c7f5c-0d45-4790-a133-c1e0157ab065")
+	)
+	(junction
+		(at 96.52 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17159026-6e4d-49a5-9618-5dc79ee1dcc3")
+	)
+	(junction
+		(at 39.37 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d5046ce-8cd9-41c0-94fd-65f55a081bb4")
+	)
+	(junction
+		(at 62.23 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20cd005d-1974-4c99-9da9-6d089e2a458e")
+	)
+	(junction
+		(at 73.66 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "234db5aa-bf8c-4004-98eb-1e4038b776d3")
+	)
+	(junction
+		(at 73.66 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2462b56a-e57b-4175-bd19-d2043b1f6274")
+	)
+	(junction
+		(at 107.95 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2626fe74-fcd6-4295-ac5a-66e7ed75fa36")
+	)
+	(junction
+		(at 55.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fa2f764-9033-4149-9bf7-ff0cf3dd7c54")
+	)
+	(junction
+		(at 199.39 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30456d99-ca3e-4273-92e9-39f06e23b1a4")
+	)
+	(junction
+		(at 143.51 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "349afa9f-fa09-4351-841f-32a9586bc12f")
+	)
+	(junction
+		(at 142.24 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "389d2b13-f27d-495d-b174-9f5ece243e42")
+	)
+	(junction
+		(at 143.51 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b55b222-c60b-415f-a2b6-de2b20172706")
+	)
+	(junction
+		(at 196.85 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c53275c-aabf-4cfe-a176-444ed9ad0d33")
+	)
+	(junction
+		(at 107.95 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45bc3d62-ccea-4bdf-8ed0-4c0bb818f47a")
+	)
+	(junction
+		(at 95.25 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "472d3011-7488-4c74-811b-9f793a116df3")
+	)
+	(junction
+		(at 60.96 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b12d8b1-bafb-4eb8-8a18-8b5df068c7c6")
+	)
+	(junction
+		(at 55.88 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e1f9305-247a-4a8a-823e-b11fcef34c05")
+	)
+	(junction
+		(at 99.06 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "523ff39f-7de6-4a6c-9471-29069535ecc6")
+	)
+	(junction
+		(at 132.08 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59eaa83c-598a-48c5-a29f-a20aa91113b0")
+	)
+	(junction
+		(at 175.26 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d7be36e-500f-4a00-aafe-418102e76b7b")
+	)
+	(junction
+		(at 175.26 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ff23d1e-7693-4a39-88e8-ee12997799b9")
+	)
+	(junction
+		(at 142.24 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61231298-b447-4306-bd8b-180437cac638")
+	)
+	(junction
+		(at 95.25 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63a1e274-eeb8-4613-9e6d-7eb31234b9bb")
+	)
+	(junction
+		(at 96.52 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "643896f8-1e1c-4d8d-baaa-2eebda668f07")
+	)
+	(junction
+		(at 175.26 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66bc1ceb-f180-43fd-bf87-d0f4a1341114")
+	)
+	(junction
+		(at 196.85 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c0a8411-ef08-4720-8432-918d61a27f84")
+	)
+	(junction
+		(at 175.26 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70edfe3b-969a-43a1-89d5-e23b3216beb9")
+	)
+	(junction
+		(at 165.1 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80da4ac6-8706-42b7-a0c0-a965bc9cfb40")
+	)
+	(junction
+		(at 73.66 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8133e860-f393-4d1c-ad7f-7a563735aeac")
+	)
+	(junction
+		(at 55.88 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "854f7703-b25c-466b-921e-e5b39befbf8a")
+	)
+	(junction
+		(at 73.66 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8843f79b-9d2e-4acf-8bb2-112f11aaaab4")
+	)
+	(junction
+		(at 167.64 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a88d6f0-ae28-49a6-8571-79fe9c337ebe")
+	)
+	(junction
+		(at 130.81 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b2c169a-fe13-4a26-9b44-0b436f92258d")
+	)
+	(junction
+		(at 60.96 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da7cd46-ecec-49fa-bc8f-b864d410abdf")
+	)
+	(junction
+		(at 73.66 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "923579c9-a3ad-4a94-b608-10683adcb651")
+	)
+	(junction
+		(at 64.77 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dd79728-a95d-4976-a730-5ee60e964dca")
+	)
+	(junction
+		(at 39.37 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fd3f534-f4af-4a41-bdc8-28cc80a3f4c2")
+	)
+	(junction
+		(at 163.83 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a00aeb18-99c7-4f5d-92dc-360a0ce1be02")
+	)
+	(junction
+		(at 200.66 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7836914-8287-4a08-a52f-ab33f3396742")
+	)
+	(junction
+		(at 107.95 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a79f43c2-3c0f-4526-ad47-ac34f01df70b")
+	)
+	(junction
+		(at 73.66 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae8f6681-42e3-498a-9e55-3725a4da4be2")
+	)
+	(junction
+		(at 73.66 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af99d6d7-4d3a-445e-adce-ddb3668f5d05")
+	)
+	(junction
+		(at 39.37 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b65c3f98-956d-4c7d-80d5-4dbf540c31d1")
+	)
+	(junction
+		(at 39.37 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8a644e2-581f-48d6-8266-963c53d6b0b9")
+	)
+	(junction
+		(at 195.58 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bba2ccac-9e2a-4006-8e94-6f0f3cd78ecc")
+	)
+	(junction
+		(at 195.58 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1bed9d2-d4ba-4c08-a422-2f504286a756")
+	)
+	(junction
+		(at 130.81 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c355ea82-e239-4bab-9ea1-1e50f70a42d3")
+	)
+	(junction
+		(at 39.37 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3ab5827-955a-40ec-84a7-b3f5667e55d0")
+	)
+	(junction
+		(at 107.95 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d54261cf-0c9e-4a77-b450-5292479de63d")
+	)
+	(junction
+		(at 62.23 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db7cd4f9-f9e4-4057-8137-b4c17daf58a2")
+	)
+	(junction
+		(at 165.1 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbaecae5-5a94-482c-bcde-82cf580ffcf8")
+	)
+	(junction
+		(at 39.37 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc9193c0-eb6e-4712-8e08-014d3fdef689")
+	)
+	(junction
+		(at 99.06 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de501660-be97-4c0b-8904-7d0c17ae22d1")
+	)
+	(junction
+		(at 165.1 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeeb1fa6-16f9-4bc5-9b32-2c5290da0c7a")
+	)
+	(junction
+		(at 132.08 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5629a76-611e-405e-ab4a-e4f8004ddd2c")
+	)
+	(junction
+		(at 165.1 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9db8705-8633-43f7-9892-d1a9b036dc94")
+	)
+	(junction
+		(at 142.24 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9faab7b-6ab8-49c8-b35b-2b3d100fd789")
+	)
+	(junction
+		(at 130.81 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffa2f22a-91be-46b9-a68f-764c4ec45e22")
+	)
+	(wire
+		(pts
+			(xy 142.24 48.26) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0010454f-8687-4ac4-8143-0ab70b061390")
+	)
+	(wire
+		(pts
+			(xy 107.95 26.67) (xy 107.95 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0015a8ac-ca3e-43fd-b891-0bb19b2a7045")
+	)
+	(wire
+		(pts
+			(xy 107.95 109.22) (xy 130.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08677e08-3211-48d9-a3b1-7ab548f810b9")
+	)
+	(wire
+		(pts
+			(xy 99.06 34.29) (xy 99.06 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e99d98-f3d8-4ef5-84b8-a8cbd8201c2a")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 167.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a314af2-9c57-4beb-883f-60e39c0aac5d")
+	)
+	(wire
+		(pts
+			(xy 64.77 34.29) (xy 64.77 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b758f5f-ae5c-4062-a09c-8647bf8c10f9")
+	)
+	(wire
+		(pts
+			(xy 130.81 41.91) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db7d48d-fe31-45b7-b7f7-09c308b43a8e")
+	)
+	(wire
+		(pts
+			(xy 165.1 102.87) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef07239-711f-4f4d-b966-fd72ada3f1a6")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12433887-126f-4d51-b4b2-dcbdfdcd2c87")
+	)
+	(wire
+		(pts
+			(xy 200.66 49.53) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124db508-34e3-48f9-b63c-7bfcfb43d079")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 163.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cae359-1594-4c4b-ac1f-ef3c11af0308")
+	)
+	(wire
+		(pts
+			(xy 60.96 88.9) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15305826-dd42-4d2c-ae93-d927e4389662")
+	)
+	(wire
+		(pts
+			(xy 207.01 26.67) (xy 207.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158e3cfc-f705-44f0-a196-87ad77044399")
+	)
+	(wire
+		(pts
+			(xy 195.58 71.12) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159f8403-3c02-4ebc-b99e-4fe2d9b7cead")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176fcf1e-8a9f-4791-9af3-8df111bc720b")
+	)
+	(wire
+		(pts
+			(xy 39.37 109.22) (xy 60.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c8bb75-5c22-48e9-bd0a-e245125d5958")
+	)
+	(wire
+		(pts
+			(xy 99.06 26.67) (xy 107.95 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef8a0e0-5d23-4fda-b462-5ab44ce3fd73")
+	)
+	(wire
+		(pts
+			(xy 26.67 71.12) (xy 26.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cd7022-02bb-45c9-bf84-bfef058533f9")
+	)
+	(wire
+		(pts
+			(xy 132.08 57.15) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22eabd6a-6c70-4fa6-907f-3da51a5a8266")
+	)
+	(wire
+		(pts
+			(xy 107.95 77.47) (xy 132.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2516536e-e9c2-41dd-8818-5ad12bfbbee1")
+	)
+	(wire
+		(pts
+			(xy 27.94 104.14) (xy 27.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2833501e-189a-432d-8a8b-7287d0de8511")
+	)
+	(wire
+		(pts
+			(xy 27.94 88.9) (xy 39.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa2ff86-73fb-441e-b3a5-093b1e9cf195")
+	)
+	(wire
+		(pts
+			(xy 55.88 26.67) (xy 55.88 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c421ec1-6b0f-4251-9523-5ef8a2a64faf")
+	)
+	(wire
+		(pts
+			(xy 60.96 102.87) (xy 60.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318a19d1-eea9-470b-992e-2dbb7ec513ce")
+	)
+	(wire
+		(pts
+			(xy 73.66 77.47) (xy 95.25 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3283acff-0b95-4815-a6d3-328c45754ef5")
+	)
+	(wire
+		(pts
+			(xy 96.52 102.87) (xy 96.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ac5d04-65fc-4878-bdc5-bf2f1082e2dd")
+	)
+	(wire
+		(pts
+			(xy 130.81 26.67) (xy 142.24 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358d50c1-e885-47e9-b833-2fd5164d64ec")
+	)
+	(wire
+		(pts
+			(xy 39.37 26.67) (xy 39.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363c52de-dafd-4250-9083-af17ca15aabb")
+	)
+	(wire
+		(pts
+			(xy 62.23 77.47) (xy 73.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a06824-11cd-402e-a539-a1039cf0c68b")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 132.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d4d048-d40a-4c59-9381-252fc6600da0")
+	)
+	(wire
+		(pts
+			(xy 175.26 57.15) (xy 195.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c61501d-52ae-4354-8b6c-160f65e7c3fc")
+	)
+	(wire
+		(pts
+			(xy 96.52 88.9) (xy 96.52 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c87c869-c554-442e-ae02-29262da0c3e7")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3659b3-c1da-4f9d-bde8-4d5b085de7dc")
+	)
+	(wire
+		(pts
+			(xy 95.25 57.15) (xy 107.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46601f1f-6837-494b-abb0-1f0b208b4b95")
+	)
+	(wire
+		(pts
+			(xy 132.08 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484e59f6-663e-4f94-9e3c-f4fc77d4f4c2")
+	)
+	(wire
+		(pts
+			(xy 99.06 41.91) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49aaca61-d4fe-463c-90b1-8692700315a5")
+	)
+	(wire
+		(pts
+			(xy 73.66 48.26) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c133a06-4130-474c-9798-b460612fce8a")
+	)
+	(wire
+		(pts
+			(xy 142.24 26.67) (xy 142.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5313c2f6-d974-4ec6-9ec5-c482ad02f097")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 107.95 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54245e6a-33f6-498e-90b6-318f07bc4565")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 39.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549db369-98ad-43b6-becf-e6f0134261d2")
+	)
+	(wire
+		(pts
+			(xy 96.52 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c839db-6bcb-4e08-aeee-454f5a9ba2b7")
+	)
+	(wire
+		(pts
+			(xy 95.25 71.12) (xy 95.25 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586a96ca-8212-4ac7-a409-41d33e0a6800")
+	)
+	(wire
+		(pts
+			(xy 55.88 57.15) (xy 62.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a8be85-7e55-4ffc-bcc5-04eafbd48cd9")
+	)
+	(wire
+		(pts
+			(xy 195.58 57.15) (xy 207.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba3a8fd-9524-42d8-a9a0-afb24cdedd87")
+	)
+	(wire
+		(pts
+			(xy 195.58 63.5) (xy 195.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd3ed03-56cd-43e2-be1d-c91c8fd9e620")
+	)
+	(wire
+		(pts
+			(xy 175.26 77.47) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b91acf-9e4c-477e-82c5-922f22c04b7e")
+	)
+	(wire
+		(pts
+			(xy 60.96 95.25) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64de5a4b-a924-4a41-b8f2-731364bc8cac")
+	)
+	(wire
+		(pts
+			(xy 132.08 77.47) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a69b0c2-cb2c-4008-b41d-a64180d82786")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 175.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d130ffd-ee3a-4075-9b05-77bac3774289")
+	)
+	(wire
+		(pts
+			(xy 130.81 102.87) (xy 130.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e32e1fc-81b5-44d5-b682-20b65f353a7a")
+	)
+	(wire
+		(pts
+			(xy 27.94 109.22) (xy 39.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702e9bf0-0130-474f-abca-47a9d915e8b0")
+	)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 142.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f8e11c-edc7-4938-8447-9b849ed95b0b")
+	)
+	(wire
+		(pts
+			(xy 39.37 88.9) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74134500-a772-4071-b90d-8e83919875be")
+	)
+	(wire
+		(pts
+			(xy 27.94 41.91) (xy 27.94 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76decb31-6fd8-48b8-bde9-39d3b6ca2fa4")
+	)
+	(wire
+		(pts
+			(xy 73.66 26.67) (xy 73.66 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4e4df7-ed23-48d5-8df7-2f320465fb38")
+	)
+	(wire
+		(pts
+			(xy 163.83 77.47) (xy 175.26 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8587a3-eabb-44a5-85e0-7a06cacb557d")
+	)
+	(wire
+		(pts
+			(xy 196.85 34.29) (xy 196.85 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bb24a9-0099-4082-9211-1b40971ac1ce")
+	)
+	(wire
+		(pts
+			(xy 165.1 41.91) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830fcc66-c89b-4c8b-b533-38f73a835c67")
+	)
+	(wire
+		(pts
+			(xy 27.94 27.94) (xy 39.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8494aef7-deb9-4337-af66-e7351165f725")
+	)
+	(wire
+		(pts
+			(xy 39.37 57.15) (xy 55.88 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8928b5a0-9f0e-4eed-9937-27fcccf9aded")
+	)
+	(wire
+		(pts
+			(xy 26.67 63.5) (xy 26.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898ea687-8b15-41fa-b6ac-8d426c648e12")
+	)
+	(wire
+		(pts
+			(xy 60.96 109.22) (xy 73.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a973916-bbee-4789-9f5b-179ef8d9e96e")
+	)
+	(wire
+		(pts
+			(xy 95.25 57.15) (xy 95.25 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1d817c-a8af-4ee2-83dd-88d22b9bead3")
+	)
+	(wire
+		(pts
+			(xy 165.1 26.67) (xy 175.26 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd19d8a-5d67-4fd8-b570-afa97178407c")
+	)
+	(wire
+		(pts
+			(xy 107.95 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936b8548-ae7c-42e6-8620-e0aae69323d4")
+	)
+	(wire
+		(pts
+			(xy 62.23 57.15) (xy 73.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940bbffb-92fa-4c69-9a38-7c0659c8a8dc")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967966a9-ee1d-41f9-884e-709da8eeb6b6")
+	)
+	(wire
+		(pts
+			(xy 55.88 26.67) (xy 73.66 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f96c7c-e649-4841-899c-54f144d618c4")
+	)
+	(wire
+		(pts
+			(xy 142.24 57.15) (xy 163.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99de7325-e715-4375-9c94-791febc07e59")
+	)
+	(wire
+		(pts
+			(xy 200.66 48.26) (xy 207.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be96695-7077-467c-b6dd-8fc4c9cbc91b")
+	)
+	(wire
+		(pts
+			(xy 73.66 109.22) (xy 96.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c511400-24c1-41fb-8678-abc202e09da5")
+	)
+	(wire
+		(pts
+			(xy 39.37 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e2c262-8089-467d-a17e-b574b4ba943d")
+	)
+	(wire
+		(pts
+			(xy 130.81 109.22) (xy 143.51 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11a5e89-4ba5-46c9-945f-7d40448fc04a")
+	)
+	(wire
+		(pts
+			(xy 107.95 48.26) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27333b7-9861-437f-9b85-5f1849fcb3dc")
+	)
+	(wire
+		(pts
+			(xy 64.77 27.94) (xy 73.66 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a584b05d-2a5c-45b2-abac-3c46a5019b1a")
+	)
+	(wire
+		(pts
+			(xy 96.52 109.22) (xy 107.95 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af413097-86ff-44f5-90d3-d078a3ca4e80")
+	)
+	(wire
+		(pts
+			(xy 165.1 34.29) (xy 165.1 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa0e162-d520-46f9-aa93-116e03186ff7")
+	)
+	(wire
+		(pts
+			(xy 99.06 48.26) (xy 107.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18f9fc7-e1f7-4d85-9184-9b49e6f7ae1f")
+	)
+	(wire
+		(pts
+			(xy 62.23 57.15) (xy 62.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92dcd82-8b1c-44a5-ae57-5f3a0ceee77c")
+	)
+	(wire
+		(pts
+			(xy 107.95 57.15) (xy 132.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9873f63-968e-4f20-985f-820d38e84317")
+	)
+	(wire
+		(pts
+			(xy 73.66 26.67) (xy 99.06 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8ddbef-7509-4d64-b008-586d41d60350")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 163.83 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf86b1f7-fbd5-4eee-a0c1-4d45d6faac72")
+	)
+	(wire
+		(pts
+			(xy 165.1 48.26) (xy 175.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c193ea11-01c4-404a-bc1f-1de86a5af693")
+	)
+	(wire
+		(pts
+			(xy 196.85 48.26) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27b8d76-d248-41fb-bcd6-df5fbfc6919b")
+	)
+	(wire
+		(pts
+			(xy 39.37 26.67) (xy 55.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30eead3-cd87-4c2b-89c3-85fb65abf26a")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 96.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6265dc3-143a-460f-8cb0-3742a3a6f647")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70d8ffe-f184-466c-afc5-5387e2fa6ad5")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 73.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabef9d2-562a-4ead-933e-b792b9971713")
+	)
+	(wire
+		(pts
+			(xy 26.67 77.47) (xy 39.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb965598-1fb7-4e13-81f3-777c8501c36e")
+	)
+	(wire
+		(pts
+			(xy 27.94 34.29) (xy 27.94 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d043f5cc-7cbe-4340-9473-f2e8ff1c5850")
+	)
+	(wire
+		(pts
+			(xy 142.24 26.67) (xy 165.1 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2413e07-6f2f-40a1-b335-5249eeebc6fb")
+	)
+	(wire
+		(pts
+			(xy 175.26 26.67) (xy 196.85 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f241b9-e0ae-4852-99d9-486faa6027af")
+	)
+	(wire
+		(pts
+			(xy 26.67 57.15) (xy 39.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44c37f2-67b2-4312-a6ec-744a165ad67a")
+	)
+	(wire
+		(pts
+			(xy 167.64 109.22) (xy 176.53 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d649c7cf-37fe-4af5-af95-9542715f174d")
+	)
+	(wire
+		(pts
+			(xy 195.58 77.47) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71fdabc-5412-4289-98b3-b50e28acf709")
+	)
+	(wire
+		(pts
+			(xy 143.51 109.22) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0a252c-47e3-43c0-a13f-a7f41986a3d9")
+	)
+	(wire
+		(pts
+			(xy 199.39 77.47) (xy 207.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db15dfd5-60db-45d0-bc4a-4ab5164ecdea")
+	)
+	(wire
+		(pts
+			(xy 175.26 48.26) (xy 196.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd50381a-6f67-4572-8a36-d906e1215a22")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde41d0e-9276-4bf3-8816-42943c320d71")
+	)
+	(wire
+		(pts
+			(xy 175.26 26.67) (xy 175.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e7eac6-d449-4c48-8f46-267cbc54cef8")
+	)
+	(wire
+		(pts
+			(xy 39.37 77.47) (xy 62.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fd12b4-62f7-4451-b7d2-8f5d1bab6447")
+	)
+	(wire
+		(pts
+			(xy 107.95 26.67) (xy 130.81 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e410a742-f98a-438f-a29f-63170fc9298d")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 163.83 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54112cb-8bea-412d-b81a-a7a6b054d827")
+	)
+	(wire
+		(pts
+			(xy 196.85 26.67) (xy 207.01 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb26b72-8f05-4a45-bc32-7325549611e3")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5c40a3-b1e0-407a-8dcd-0c4cafb6fa94")
+	)
+	(wire
+		(pts
+			(xy 73.66 57.15) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3abf470-2886-4bb8-83e6-7ba128b46455")
+	)
+	(wire
+		(pts
+			(xy 27.94 96.52) (xy 27.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a333fe-b895-4d40-8e90-530be9438c30")
+	)
+	(wire
+		(pts
+			(xy 62.23 71.12) (xy 62.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94b8dcc-0038-4ef5-837d-56f02b72881f")
+	)
+	(wire
+		(pts
+			(xy 130.81 26.67) (xy 130.81 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cd8d5a-6a61-4a76-8faf-ae429dfc7048")
+	)
+	(wire
+		(pts
+			(xy 196.85 41.91) (xy 196.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb94ea9-bddd-4384-813a-c27217a2f298")
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 144.78 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00ce080c-aa19-4f06-9e37-5fc9e4e057e1")
+		(property "Reference" "U10"
+			(at 146.812 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 154.432 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2052938f-7d16-473d-9a43-24acd5c6e56c")
+		)
+		(pin "1"
+			(uuid "43aca527-c011-4949-98a1-7578e2b96aa1")
+		)
+		(pin "2"
+			(uuid "f764c081-147d-4ae3-8568-73d7fbe9ea6f")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "068d0da5-87b6-4420-ae38-29e9482a3679")
+		(property "Reference" "C15"
+			(at 100.33 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 100.33 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.4852 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8893ec4-98cb-42c1-95b9-3d4cabc23ead")
+		)
+		(pin "2"
+			(uuid "cee8e2d6-16de-45f3-92ae-8018b9cacc4c")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b4828bd-2ac4-4fb5-a78a-6aeb955c1770")
+		(property "Reference" "C6"
+			(at 200.66 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 200.66 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 197.8152 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4007776-7695-4133-a244-528d977c1f28")
+		)
+		(pin "2"
+			(uuid "03bb04cb-3759-4e06-ad31-4120b224fadf")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 55.88 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c4024fd-5cdf-42b8-9c2f-104cafcf7c89")
+		(property "Reference" "#PWR05"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55f6284d-3b1a-4fb3-a284-d7db817e3827")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 146.05 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17bde24c-774f-43c4-92cc-a2d893b433f0")
+		(property "Reference" "U16"
+			(at 147.828 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 155.702 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 146.05 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 146.05 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 146.05 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a208d9d3-f233-4e77-b6c0-548998ac01d4")
+		)
+		(pin "1"
+			(uuid "8f431db1-fb43-438d-bf76-dca8b79a12a0")
+		)
+		(pin "2"
+			(uuid "64d7fc6e-a68a-4994-8604-5f1e3ae2fb09")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 179.07 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18ab9983-3421-4e55-af94-c28d2fa56a58")
+		(property "Reference" "U17"
+			(at 181.102 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 188.722 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cc7bce06-4395-47ca-b750-ccd2e421f820")
+		)
+		(pin "1"
+			(uuid "f3e9f484-598c-46fe-8bb9-8ec219cc6575")
+		)
+		(pin "2"
+			(uuid "b361089e-a90f-4f7c-9519-e82364fbc222")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 144.78 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ab363d9-9a92-474b-bbc3-f1aca7148604")
+		(property "Reference" "U4"
+			(at 146.304 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 155.194 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "96b9c8d8-b95a-465b-9498-ee3dd2da3afb")
+		)
+		(pin "1"
+			(uuid "4e5b7914-94fd-4c37-b1b5-f17062034942")
+		)
+		(pin "2"
+			(uuid "b42650b8-ed8d-4949-bcc3-2d8248ca0b49")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 110.49 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cd5fc86-eb93-4821-ad0a-72219e9ab913")
+		(property "Reference" "U9"
+			(at 111.76 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 119.634 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "51eff8b1-6bb4-4d39-bb9e-a1a3fbaaf9f7")
+		)
+		(pin "1"
+			(uuid "e2c271a6-be9b-4529-9a5b-673d36fd395f")
+		)
+		(pin "2"
+			(uuid "90b2ef97-b4d7-4a7d-9775-413de30be00f")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 27.94 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e28295a-178f-4da6-b5bd-14b382340c35")
+		(property "Reference" "C13"
+			(at 31.75 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 31.75 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.9052 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bba44b0a-2e3d-4ba0-b5c0-66d78723e6a6")
+		)
+		(pin "2"
+			(uuid "45a4b59e-5b65-47a2-8cd7-7c2711e4ea0a")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 177.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30961818-f381-4d45-a6e2-341115fb0f10")
+		(property "Reference" "U5"
+			(at 179.324 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 187.706 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c5f55dae-b69b-46d2-bab8-8077b762e235")
+		)
+		(pin "1"
+			(uuid "8086a6d0-d144-47c8-beeb-a9086f1ddb57")
+		)
+		(pin "2"
+			(uuid "028a7ae1-4ccc-4bfd-989c-5022f65430be")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 76.2 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36348529-d7b2-4833-9b37-a16be9657662")
+		(property "Reference" "U8"
+			(at 77.724 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 85.852 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cb492561-9fde-46bb-b34b-511cc1e1f6c7")
+		)
+		(pin "1"
+			(uuid "e9db0f73-39e2-4202-bbce-ff680f3fecb0")
+		)
+		(pin "2"
+			(uuid "0a533a0b-6ce0-4f50-a33c-5973c34233fe")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 110.49 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38069a78-7f68-4b13-9363-5a3af2035cd0")
+		(property "Reference" "U15"
+			(at 112.522 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 120.142 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "06ffe6fd-e616-4935-8975-8a31d0712642")
+		)
+		(pin "1"
+			(uuid "89296435-e185-4343-b6cb-4a5eebb00ada")
+		)
+		(pin "2"
+			(uuid "60bc088c-884a-4bca-8ee7-c1b8a440d976")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45b534d2-0c9d-4dfb-9ada-e171e1675927")
+		(property "Reference" "C5"
+			(at 168.91 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 168.91 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.0652 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6072f64c-6ab2-4e90-b745-eccf52571a5e")
+		)
+		(pin "2"
+			(uuid "b76a4dc9-5a1b-4364-8824-3fe6a02d05fd")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 195.58 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51058688-d7d0-42e3-a0d1-5c49120d392a")
+		(property "Reference" "C7"
+			(at 199.39 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 199.39 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.5452 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f2c15f5-fad9-457f-9ef3-eb95a6b3db84")
+		)
+		(pin "2"
+			(uuid "f0685749-13be-4f61-9a8f-7f8d1e234d75")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5911026d-ccfc-4054-b65e-cee245c640d6")
+		(property "Reference" "C8"
+			(at 167.64 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 167.64 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.7952 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cf773d1-d8ed-4f6a-baa9-a24c1c6c4c55")
+		)
+		(pin "2"
+			(uuid "82a66657-8400-4fad-b29e-db527b8da16b")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 41.91 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5abd9bd2-a7dc-40ec-b661-0cdefa393f00")
+		(property "Reference" "U1"
+			(at 43.18 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 51.562 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d4d250b2-4e84-4940-9726-a7ec0325e651")
+		)
+		(pin "1"
+			(uuid "5d35b1e9-3f08-4ea8-89ad-331ed948cf9a")
+		)
+		(pin "2"
+			(uuid "beec9d15-1e2f-4c82-9f68-30915d9ed792")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 110.49 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f9df95c-dbcc-44df-8983-f52117c8b6a4")
+		(property "Reference" "U3"
+			(at 111.76 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 120.396 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 110.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 110.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 110.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ec168c04-7626-46bc-a67f-51feb9bbb2db")
+		)
+		(pin "1"
+			(uuid "c8067958-9584-477b-a313-762aac9b6382")
+		)
+		(pin "2"
+			(uuid "bdc4fea4-0bdc-4040-b242-b6b67437872a")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 26.67 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6499d2d8-cfc1-46b4-bcab-61362b2a9452")
+		(property "Reference" "C12"
+			(at 30.48 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 30.48 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.6352 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d395bb29-741e-4650-bffb-1c5c23309171")
+		)
+		(pin "2"
+			(uuid "065d44c8-b52d-452a-b738-518b8ff926c6")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 55.88 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68af16d2-ed6a-45e8-bf85-24c06480083b")
+		(property "Reference" "#PWR04"
+			(at 55.88 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 55.88 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ba3a62b-a091-40a9-918b-550b6208830e")
+		)
+		(instances
+			(project ""
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71727280-b705-48d6-981b-e10c211e893f")
+		(property "Reference" "C2"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 68.072 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.7352 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ebe0c45-045e-4e11-9fff-8c8f9b46a0e6")
+		)
+		(pin "2"
+			(uuid "7dc3b666-a44e-4e72-97b0-619ba81e2481")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a5db773-8ca3-4d1e-a42b-0a43d7f49064")
+		(property "Reference" "C11"
+			(at 66.04 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 66.04 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.1952 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66b2532a-31b2-4b12-a3bd-9be51eeb4391")
+		)
+		(pin "2"
+			(uuid "786706ea-7add-469b-9b09-64248219dad2")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 209.55 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "802b3f77-06d2-448e-b0d3-6c441fb8bd22")
+		(property "Reference" "U6"
+			(at 211.074 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 219.202 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8d3455d1-af74-44a5-9c99-547af3b91aaa")
+		)
+		(pin "1"
+			(uuid "7c07cd61-8109-4d83-b2f8-4bade1233de7")
+		)
+		(pin "2"
+			(uuid "be5f02db-f39c-4a5a-a044-8aa850a3b806")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 41.91 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8274b1cd-742b-426e-b708-c3c4b72be4e9")
+		(property "Reference" "U7"
+			(at 43.434 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 51.308 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9eb849bc-2262-48b6-9e16-ffb21dbf9d70")
+		)
+		(pin "1"
+			(uuid "14dce478-6975-4835-967f-6296c3ebd2ba")
+		)
+		(pin "2"
+			(uuid "48897d6e-855f-4dae-8a47-9f2d8ecb6a19")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 41.91 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89cbd3d5-8346-42dd-8332-e932d219cdb9")
+		(property "Reference" "U13"
+			(at 43.688 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 51.816 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4fc48e55-ec0d-4a83-9115-cf89f0b93337")
+		)
+		(pin "1"
+			(uuid "07ff95c1-f215-4b70-af8f-cdb58705540d")
+		)
+		(pin "2"
+			(uuid "caaa898f-7071-4aa9-873d-f569e5d384d8")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89e292ea-9a56-4375-860a-623766efdd08")
+		(property "Reference" "#PWR01"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3f276d2-7383-4f77-bad4-7e7728c85029")
+		)
+		(instances
+			(project ""
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 76.2 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8db2b934-f049-4b8f-9a6b-25162e352b24")
+		(property "Reference" "U2"
+			(at 77.724 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 85.852 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3104fbcc-59fe-4535-84f6-187cd7e78fc2")
+		)
+		(pin "1"
+			(uuid "720f9c88-136f-464c-a5f5-73ec907f332d")
+		)
+		(pin "2"
+			(uuid "52574ceb-8487-4525-ad95-6c3f108a7811")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e5820b5-e535-4ff5-a8a8-868210de6b2f")
+		(property "Reference" "#PWR02"
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d91aef03-ae14-4028-85d5-6bbb8395b536")
+		)
+		(instances
+			(project ""
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f81bf1-65cb-4772-9d72-697e72518cc4")
+		(property "Reference" "C10"
+			(at 99.06 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 99.06 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.2152 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f2e5de-3d70-4fd2-8ac2-05113f03d2f7")
+		)
+		(pin "2"
+			(uuid "d5f93429-dc03-42fd-b6a9-74d61820eaff")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 177.8 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a39ed9e1-2392-4964-b32f-e554ac54559c")
+		(property "Reference" "U11"
+			(at 180.086 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 187.452 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3eccc077-701a-451d-999c-3b2990cd98a4")
+		)
+		(pin "1"
+			(uuid "fae445e6-5205-4f81-9f0e-fb856ef609dc")
+		)
+		(pin "2"
+			(uuid "bef5ddef-0044-45ee-bf9d-90dbb4d2c656")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0ae2cd5-100b-4e53-a27e-bd726f20ab65")
+		(property "Reference" "#PWR03"
+			(at 199.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d738f910-1ea3-4f79-9983-2c96c4ea1862")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 209.55 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1abab52-cf20-4ee2-829e-a2139f266314")
+		(property "Reference" "U12"
+			(at 212.598 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 227.838 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "69a85827-1578-4e67-abe6-d6919c32c404")
+		)
+		(pin "1"
+			(uuid "d186d095-cacc-477a-a268-52eed2f77357")
+		)
+		(pin "2"
+			(uuid "8735c1a7-8b13-4d03-b4de-a07cf9f3b343")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 27.94 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b64c3b6f-8ed9-407c-9dc1-e9d7c527b1fd")
+		(property "Reference" "C1"
+			(at 31.75 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 31.75 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.9052 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14e5a232-312e-4993-85ce-6d0b0427b801")
+		)
+		(pin "2"
+			(uuid "1adae326-d022-4ce8-abf6-05e42f9f8aae")
+		)
+		(instances
+			(project ""
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0f39043-e007-4ae9-91d3-b0abd0300038")
+		(property "Reference" "C17"
+			(at 168.91 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 168.91 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.0652 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e50ec6b-56be-421f-8f96-87175bbf11c7")
+		)
+		(pin "2"
+			(uuid "bb4f7a93-ad3e-4b74-9878-97ef5bc2bcb2")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d722fb91-2197-433c-ac08-3319dd84471a")
+		(property "Reference" "C4"
+			(at 134.62 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 134.62 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.7752 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35988235-e421-4b04-a9c4-c6abf69c6012")
+		)
+		(pin "2"
+			(uuid "7da746b1-4eae-4c13-b8ec-025cbbe526b9")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 55.88 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f16221-f5dc-421a-9885-f93bd80bf24c")
+		(property "Reference" "#PWR06"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bde7db96-c7ad-4763-a7ee-54fd133f1b50")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5055A4xDBZxQ1")
+		(at 76.2 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1701a35-2ba1-4682-9c69-f423bfc1fcc7")
+		(property "Reference" "U14"
+			(at 78.232 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5055A4xDBZxQ1"
+			(at 85.852 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ee894da-24b7-4cc4-bd37-8ebb5737048c")
+		)
+		(pin "1"
+			(uuid "a0ff6e98-27ba-475f-8911-fab08c1754f3")
+		)
+		(pin "2"
+			(uuid "5a7f73e8-b5ee-4c02-8304-bbe7c778af1a")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.81 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e414855b-b240-4196-9dbc-6b9e0385e163")
+		(property "Reference" "C16"
+			(at 134.62 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 134.62 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.7752 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c301fa6c-49be-44ec-8bb4-4c0714f77291")
+		)
+		(pin "2"
+			(uuid "91290bd7-916a-430c-8aa8-f2915c9d5565")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e53090b4-93f8-4685-8ba0-9de2da9a13da")
+		(property "Reference" "C14"
+			(at 64.77 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 64.77 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.9252 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "984752b8-b7ed-44ff-a2a4-39863fea12df")
+		)
+		(pin "2"
+			(uuid "5f8bfaa6-91e0-433a-a5ce-9a58e738eb61")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed42adea-b540-465e-abec-1f4087c7aa96")
+		(property "Reference" "C3"
+			(at 93.726 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 102.87 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.0252 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8a37c71-0195-439c-8536-d1519c889530")
+		)
+		(pin "2"
+			(uuid "56ff03d9-b155-42e6-a7f9-582486accaf1")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc7fdffc-c857-46f1-aa23-044d05be629c")
+		(property "Reference" "C9"
+			(at 135.89 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 135.89 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.0452 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7cf81ec-15f8-495f-9f61-1069aee056e5")
+		)
+		(pin "2"
+			(uuid "fcefac9a-c1ad-4763-ad43-83289d0305f9")
+		)
+		(instances
+			(project "Klawiatura analogowa"
+				(path "/3f28ba51-2e3c-4200-a5c8-0df71e47e569/a31412e5-c5b6-42e9-9219-9c07c7b90029"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
